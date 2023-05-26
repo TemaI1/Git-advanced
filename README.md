@@ -32,3 +32,34 @@ path(https://github.com...)
 
 - git blame file посмотреть изменения, какими пользователями вносились
 
+- git restore file вернуть файл к исходному состоянию
+
+- git restore --staged file вернуть из индекса
+
+- git reset --hard удалить все изменения
+
+- git clean -f удалить untracked файлы
+
+- git rm --cached file удалить из отслеживания
+
+- git restore --staged index.html отменить версию файла
+
+- git restore file удалить изменения
+
+- git revert b45a983 отменить как коммит
+
+- git reset --soft C в мягком варианте
+
+- git reset --mixed C в смешанном варианте
+
+git reset --hard C жёсткий вариант команды
+
+git reset --merge hash отменить такое слияние
+
+git merge --abort  если слияние не произошло из-за конфликтов, моожно отменить
+
+git stash отложить изменения 
+
+git stash pop вернуть более ранние изменения из отложенных
+
+git stash drop отменить последнюю порцию отложенных изменений
